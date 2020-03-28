@@ -1,0 +1,75 @@
+
+
+
+
+
+.items
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+
+li
+{
+list-style: none;
+
+}
+
+
+li:hover
+{
+    color: #255784;
+    background: #39ff14;
+    box-shadow: 0 0 10px #39ff14,0 0 40px #39ff14, 0 0 80px #39ff14;  
+    cursor: pointer;
+}
+
+button
+{
+    background-color: springgreen;
+    color: black;
+}
+
+button:hover
+{
+    background-color: red;
+}
+
+.cancel
+{
+    margin: 10px 10px 10px 10px;
+justify-self: flex-end;
+align-content: flex-end;
+align-self: flex-end;
+}
+
+.complete
+{
+margin-left: 20px;
+}
+
+
+
+.done
+{
+    color: red;
+    text-decoration: line-through;
+}
+
+.undone
+{
+    color: #61DAFB;
+}
+
+
+
+
+
+
+
+
+
+
